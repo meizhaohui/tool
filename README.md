@@ -72,11 +72,11 @@ package main
 
 import (
     "github.com/meizhaohui/tool"
-	"fmt"
+    "fmt"
 )
 
 func main() {
-	fmt.Println(tool.Hello())
+    fmt.Println(tool.Hello())
 }
 ```
 
