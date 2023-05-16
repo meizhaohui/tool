@@ -68,13 +68,15 @@ go: github.com/meizhaohui/tool upgrade => v0.0.0-20230516134116-a66d840fea79
 2、在代码使用使用
 
 ```go
+package main
+
 import (
     "github.com/meizhaohui/tool"
-    "testing"
+	"fmt"
 )
 
-func TestName(t *testing.T) {
-    t.Log(tool.Hello())
+func main() {
+	fmt.Println(tool.Hello())
 }
 ```
 
